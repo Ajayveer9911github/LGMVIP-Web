@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Poppins&family=Roboto:wght@300&display=swap');
+
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    background-image: linear-gradient(to top left,
+            rgb(42, 255, 56), rgb(253, 253, 253), rgb(255, 85, 0));
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #0d0d0e;
+    text-transform: uppercase;
+    margin-top: 1em;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+}
+
+
+table {
+    width: 30%;
+    padding: 2rem 2rem;
+    margin-top: 1em;
+    column-gap: 40px;
+    /* background-color: rgb(251, 101, 101); */
+    background-image: url("ss.png");
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 2%;
+}
+
+table#Form{
+    background-image: url("ss.png");
+}
+
+table#show{
+    background-image: url("sc.png") !important;
+    background-repeat: no-repeat; 
+}
+
+#show th,
+#show td {
+    padding: 8px;
+}
+
+tr td input {
+    padding: .5rem;
+    width: 100%;
+    margin-top: .5em;
+}
+
+tr td input:focus {
+    outline-color: #88cdfc;
+}
+
+#btna td input {
+    font-weight: 600;
+    font-size: 20px;
+    padding: .6rem .6rem;
+    color: rgb(34, 33, 44);
+    margin-top: 1rem;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    background: linear-gradient(to right, #50e9d9 0%, #2dc5e3 100%);
+    width: 100%;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
