@@ -12,7 +12,7 @@ const App = () => {
 
   return (
     <div className="App">
-      <h1>Hello All</h1>
+      <h1>LGMVIP-Web React App</h1>
       <button onClick={loadUsers}>Display</button>
       <h2>Users:</h2>
       <ul>
