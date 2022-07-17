@@ -4,6 +4,7 @@ const App = () => {
   const [users, setUsers] = useState([]);
   const loadUsers = async () => {
     // const res = await fetch("https://reqres.in/api/users");
+    // I didn't use above data because it was giving 'users.map is not a function' error. Instead I used one which was used earlier in youtube tutorial.
     const res = await fetch("https://api.github.com/users");
     const jsonres = await res.json();
     setUsers(jsonres);
